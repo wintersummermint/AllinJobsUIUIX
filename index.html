@@ -1,0 +1,510 @@
+<!-- started 01/07/15/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- all injobs title ready for SEO -->
+    <title>All Jobs, Job Search, Job Hiring, Hire Employees | AllinJobs.com </title>
+
+    <!-- this is a part for tags SEO marketing -->
+    <!--SEO Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Apply at AllinJobs.com . Jobs in Philippines, Where you can find jobs in Manila, Cebu, Davao, Quezon City and Asia.  Online job search services for all. Employers can advertise jobs and find resumes here.Be successfully employed, eager and satisfied.">
+    <meta name="homedesc" content="Allinjobs.com is a site dedicated to all Filipinos looking for jobs online, and employers looking to hire Filipinos." />
+   <meta name="publisher" content="Allinjobs.com" />
+   <meta name="copyright" content="Copyright (c) 2016  AllinJobs.com" />
+    <meta name="keywords" content="Jobs, Work, Hiring , Apply jobs, Career, Trabaho">
+    <meta name="author" content="Allinjobs">
+    <link rel="shortcut icon" href="#">
+    <link rel="icon" href="#">
+
+    <!-- Main UI allinjobs-->
+    <link href="css/mainStyle.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css"> 
+    <!-- Page specific CSS -->
+    <link href="css/landingStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body data-spy="scroll" data-target=".landing-navbar-collapse" data-offset="300">
+  
+    <!-- sign up Modal -->
+    <div class="modal fade" id="signupModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title">Sign Up</h4>
+            <p>Register for FREE to get job matches and apply.</p>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="signup-email">First Name</label>
+                  <input type="text" class="form-control" id="signup-email" placeholder="Enter email">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="signup-email">Last Name</label>
+                  <input type="text" class="form-control" id="signup-email" placeholder="Enter email">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <label for="signup-email">Email</label>
+                  <input type="text" class="form-control" id="signup-email" placeholder="Enter email">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="signup-pass">Password</label>
+                  <input type="password" class="form-control" id="signup-pass" placeholder="Enter password">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="signup-pass-repeat">Repeat password</label>
+                  <input type="password" class="form-control" id="signup-pass-repeat" placeholder="Repeat password">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">Read and agree with terms
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">Subscribe me for latest job news
+              </label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-info">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal -->
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal">
+      <div class="modal-dialog" style="margin-top:10%;background:#F7F7F7;">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="text-center">
+                  <h5>Login as :</h5>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <a href="login.html" class="thumbnail login-option" id="box1op">
+                  <div class="text-center" id="loginoptionbox">
+                    <i class="fa fa-user" id="fa-logincolor"></i>
+                    <h5>Jobseeker login</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-6">
+                <a href="login-employer.html" class="thumbnail login-option" id="box2op">
+                  <div class="text-center" id="loginoptionbox">
+                    <i class="fa fa-users"  id="fa-logincolor"></i>
+                    <h5>Employer login</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal -->
+
+
+    <!-- Header -->
+    <header class="navbar navbar-transparent navbar-fixed-top navbar-centered-nav navbar-animated">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".landing-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="arrow"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-logo">
+            <img src="img/title-logo.png" alt="AllinJobs">
+            <!-- <img class="alt-logo" src="#" alt="AllinJobs"> -->
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse landing-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a class="scrollTo" href="#home">Search</a></li>
+            <li><a class="scrollTo" href="#features" data-offset-top="80" >Jobs now</span></a></li>
+            <li><a class="scrollTo" href="#whyus" data-offset-top="80" >Companies</span></a></li>
+            <li><a class="scrollTo" href="#" data-toggle="modal" data-target="#loginModal">Log in</a></li>
+
+          </ul>
+          <div class="navbar-right">
+            <a href="#" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#signupModal">
+            <i class="flaticon-search"></i></span>  
+            Jobseeker Sign Up</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Close-->
+
+    <!-- Intro Section -->
+    <section class="intro" style="background-image: url(img/intro-bg.jpeg)" id="home">
+      <div class="overlay"></div>
+      <span></span>
+      <div class="container">
+        <h1 style="font-weight:700;">Best jobs in the Philippines and Abroad</h1>
+        <h4>We help you find a better job : Make your Resume visible to thousands of Employers</h4>
+        <p></p>
+        <div class="text-center">
+          <div class="col-lg-8 col-lg-offset-2">
+              <div class="input-group form-group hidden-xs">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-primary icon-right" tabindex="-1">Search</button>
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" tabindex="-1" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Fresh Grad/Less 1 yr. exp</a></li>
+                    <li><a href="#">1-4 Years Exp</a></li>
+                    <li><a href="#">5 years and Up</a></li>
+                    <li><a href="#">Assistant Manager/Manager Jobs</a></li>
+                    <li><a href="#">CEO,SVP,AVP,VP Jobs</a></li>
+                  </ul>
+                </div>
+                <input type="text" class="form-control addon-left" style="margin-top: 10px;" placeholder="Job Title or Job Employer">
+              </div>
+              <div class="col-xs-12 hidden-lg">
+                <div class="input-group form-group">
+                  <input type="text" class="form-control addon-right" style="margin-top: 10px;" placeholder="Job Title or Job Employer">
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">Go</button>
+                  </span>
+                </div>
+              </div>
+          </div>
+          <!-- <div class="col-lg-12">
+            <div class="pull-left" style="margin-top:20px;">
+              <a href="#" class="text-left">Advanced</a>
+            </div>
+          </div> -->
+
+
+          <div class="col-lg-10 col-centered col-lg-offset-1 ">
+            <!-- <h4>Want a Job?</h4> -->
+            <button class="btn btn-success" type="button"  data-toggle="modal" data-target="#signupModal">
+              Sign Up Now<span class="badge badge-default floating">free</span>
+            </button>
+            <a href="jobs.html"><button class="btn btn-primary" type="button" >
+              Jobs for hire
+            </button></a> <span class="allinwhite">or</span>
+            <a href="employer-signup.html"><button class="btn btn-primary" type="button" id="btn-postajob">Post a Job for free!</button></a>
+            <br>
+            <p><a href="#">Advanced search</a></p>
+            <p>Already a Jobseeker? <a href="login.html">Log in</a></p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </section><!-- Intro Section End -->
+
+
+
+    <section class="container features" id="features">
+      <div class="row" style="margin-bottom:20px;">
+        
+        <div class="col-xs-12">
+            <h3 class="block-heading text-center" id="blockheading">Latest Job Posting</h3>
+
+             <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px">
+                  <div class="caption text-left summary-job-thumb" style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                      Customer Service/BPO 
+                    </small>
+                  </div>
+              </div>
+            </div>
+
+             <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px;">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                      Customer Service/BPO 
+                    </small>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                       Customer Service/BPO 
+                    </small>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px;">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                       Customer Service/BPO 
+                    </small>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                       Customer Service/BPO 
+                    </small>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                       Customer Service/BPO 
+                    </small>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px; margin-bottom:0px">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                       Customer Service/BPO 
+                    </small>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-12" id="compress-jobs">
+              <div class="thumbnail with-caption" style="border-radius: 0px;margin-bottom:0px">
+                  <div class="caption text-left summary-job-thumb"  style="padding:3px;">
+                    <a href="#"><h5 class="allinorange" id="thumb-title">KNOW YOUR WORTH W/ HGS! EARN UP TO 60K/MO • CREDIT CARD EXECUTIVES</h5></a>
+                    <p class=" text-left" style="font-size:12px;">
+                    <span style="color:#A2A2A2">
+                      Full Time·06 Jan <br>
+                      Pasay <br>
+                      P15,000 - P20,000
+                      <br>
+                      <br>
+                    </span>
+                    Startup Jobs Asia was “brewing” yet recognizing the challenges of Talent Acquisition that Startups faced within Asia. We have identified the in-between gaps and aim t....</p>
+                    <a href="#" class="btn btn-primary btn-sm" role="button">Apply</a>
+                    <br>
+                    <small class="text-left">
+                       Customer Service/BPO 
+                    </small>
+                  </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <!-- Сlear the SM cols if their content doesn't match in height -->
+        <div class="clearfix visible-sm-block"></div>
+        <button class="btn btn-info" style="margin-top:20px;">See more jobs...</button>
+      </div>
+    </section>
+
+    <!--  why us -->
+    <section class="container" id="whyus">
+    <div class="block-header">
+            <h2>Companies Hiring</h2>
+          </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>   
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>  
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>  
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>   
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>   
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>  
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>  
+        <div class="col-lg-3">
+          <a href="#" class="thumbnail"><img src="img/1.png"></a>
+        </div>   
+      </div>
+    </section>
+
+
+    <!-- Additional spaces -->
+    <div class="space-bottom-2x visible-sm-block visible-xs-block"></div>
+    <div class="padding-top visible-xs-block"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#" class="logo"><img src="img/title-logo.png" alt="All in Jobs"></a>
+            <p>blah blah blah dqwid iowqdjo qdiowqidojqwi oblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blah</p>
+          </div>
+          <div class="col-sm-8">
+            <h3>Subscribe to our classified jobs!</h3>
+            <p>To receive latest news and updates on jobs also we do not tolerate spam!</p>
+            <form action="" class="form-inline subscribe-form space-bottom-2x">
+              <div class="form-group">
+                <label class="sr-only" for="subscr-email">Email address</label>
+                <input type="email" class="form-control" id="subscr-email" placeholder="Enter email">
+              </div>
+              <button type="submit" class="btn btn-warning">Subscribe</button>
+            </form>
+            <h3>Follow us on:</h3>
+            <div class="social-buttons">
+              <a href="#" class="social-btn sb-twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="social-btn sb-google-plus"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p><a href="#" target="_blank">All in Jobs | ph </a> 2016</p>
+          </div>
+        </div>
+      </div>
+    </footer><!-- Footer End -->
+
+    <!-- jQuery Library
+    ================================================== -->
+    <script src="js/vendor/jquery.min.js"></script>
+
+
+    <!-- PluginsCustom scripts
+    ================================================== -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/smoothscroll.js"></script>
+    <script src="js/aij.js"></script>
+    <script src="js/landing.js"></script>
+
+  </body><!-- Body End -->
+</html>

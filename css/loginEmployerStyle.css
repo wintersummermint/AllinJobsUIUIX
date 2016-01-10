@@ -1,0 +1,14 @@
+.mainbg {
+	background: url('../img/main-employers.jpg');
+	height: 800px;
+	background-size: cover;
+}
+#employerfooter {
+	background-color: #FEFEFE;
+	color:#2F2F2F;
+}
+
+#employerh3 {
+	
+	color:#2F2F2F;
+}

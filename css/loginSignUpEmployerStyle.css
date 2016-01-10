@@ -1,0 +1,31 @@
+.mainbg {
+	background: url('../img/signup-employers.jpg');
+	height: 800px;
+	background-size: cover;
+}
+#employerfooter {
+	background-color: #FEFEFE;
+	color:#2F2F2F;
+}
+
+#employerh3 {
+	
+	color:#2F2F2F;
+}
+
+#navbar-employersignup {
+	color:#282828;
+}
+
+.navbar-transparent .navbar-nav > li > a,
+.navbar-transparent.navbar-default .navbar-nav > li > a,
+.navbar-transparent.navbar-inverse .navbar-nav > li > a {
+  color: #373636;
+}
+
+.main-section {
+	border-radius: 2px;
+	width: 100%;
+	height: 800px;
+	background-color: #F9F9F9;
+}

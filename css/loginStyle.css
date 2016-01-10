@@ -1,0 +1,76 @@
+/*.login-form {
+	width: 100%;
+	position: absolute;
+	padding: 60px 15px;
+	height: 486px;
+	top: 50%;
+	margin-top: -263px; 
+}
+.login-form .logo {
+	display: block;
+	max-width: 130px;
+	margin: 0 auto 40px auto;
+}
+.login-form .logo img {
+	width: 100%;
+	max-width: 100%;
+}
+.login-form .inner {
+	max-width: 500px;
+	margin: auto;
+}
+*/
+.mainbg {
+	background: url('../img/people-walking-in-city.jpg');
+	height: 800px;
+	background-size: cover;
+}
+
+.btn-linkedin {
+    background: #069;
+    padding-left: 45px;
+    padding-right: 19px;
+    margin-bottom: 35px;
+}
+.btn-google {
+    background: #DF4A32;
+    padding-left: 45px;
+    padding-right: 19px;
+    margin-bottom: 35px;
+}
+.btn-social {
+    position: relative;
+    padding-left: 40px;
+    display: block;
+
+}
+.btn-square {
+	color: white;
+}
+
+.btn-square > i {
+	font-size: 22px;
+}
+
+.btn-square {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn-square:focus, .btn-square:active:focus, .btn-square.active:focus {
+    outline: 0 none;
+}
+
+#btnlinkedin {
+	font-size: 12px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+#btngoogle {
+	font-size: 12px;
+	font-weight: 300;
+	padding-left: 10px;
+}
